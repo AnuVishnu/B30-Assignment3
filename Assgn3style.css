@@ -1,0 +1,179 @@
+<style>
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  border: 1px solid grey;g
+  background-color: black;
+}
+
+.left {
+  background-color: rgb(43, 35, 35);
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-inline-start: 0px;
+}
+
+.right {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.child {
+  flex: 1;
+  background-color: rgb(46, 45, 45);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+.child-heading {
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.child-content {
+  flex: 1;
+  padding: 10px;
+}
+
+.playlist-heading, .focus-heading {
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  color: #f4eded;
+  border-right: 1px solid #000;
+}
+
+span.b {
+  display: inline-block;
+  width: 140px;
+  height: 200px;
+  padding: 5px;
+  margin: 5px;
+  background-color:#090909;
+  position: relative;
+  border-radius: 30px;
+}
+
+.image-container1 {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 150px;
+  margin-left: 13px;
+  margin-right: 150px;
+  margin-inline-end: 65px;
+
+}
+
+.image-container {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  width: 100px;
+  margin-left: 13px;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+}
+
+.image-75 {
+max-width: 100%; /* Change this from max-width: 100% to max-width: 50% */
+max-height: 100%;
+border-radius: 10px;
+}
+a {
+text-decoration: none; /* Removes the underline */
+color: white; /* Inherits the color from its parent element */
+}
+
+
+.horizontal-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+}
+
+.text-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  z-index: -1;
+}
+.text-style {
+
+/* Add any other text styles you want to apply */
+text-align: center;
+}
+
+body {
+background-color: #000;
+font-family: Perpetua;
+color: #f4eded;
+}
+.icon-small {
+width: 20px; /* Adjust the width as needed */
+height: 20px; /* Adjust the height as needed */
+}
+
+.icon-list {
+list-style: none;
+padding: 0;
+}
+
+.icon-list li {
+display: flex;
+align-items: center;
+margin-bottom: 30px;
+margin-left: 20px; 
+}
+
+.scrollable-list {
+max-height: 100px; 
+overflow-y: scroll;
+}
+
+.button {
+background-color: #7d1700; /* Set the vibrant color you want */
+color: white;
+text-align: center;
+padding: 20px;
+border-radius: 50%;
+font-weight: bold;
+}
+
+
+</style>
+kllllj
